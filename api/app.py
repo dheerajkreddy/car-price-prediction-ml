@@ -5,9 +5,9 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the saved artifacts
-model = joblib.load('../models/car_price_model.pkl')
-scaler = joblib.load('../models/scaler.pkl')
-training_columns = joblib.load('../models/training_columns.pkl')
+model = joblib.load('./models/car_price_model.pkl')
+scaler = joblib.load('./models/scaler.pkl')
+training_columns = joblib.load('./models/training_columns.pkl')
 
 # HTML for the home page with a form
 home_page = """
