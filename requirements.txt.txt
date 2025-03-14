@@ -1,0 +1,8 @@
+Flask==2.2.2
+pandas==1.5.3
+numpy==1.23.5
+matplotlib==3.6.3
+seaborn==0.12.2
+scikit-learn==1.6.1
+joblib==1.2.0
+kagglehub==0.0.1
