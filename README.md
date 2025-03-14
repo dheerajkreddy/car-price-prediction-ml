@@ -90,12 +90,12 @@ Then, access the API at: [http://localhost:5001](http://localhost:5001)
    Fill out the form on the home page with the following fields:
    - **Car_Name:** e.g., "ritz"
    - **Year:** e.g., 2014
-   - **Present_Price:** e.g., 5.59
+   - **Present_Price (in Lakhs Rupees):** e.g., 5.59
    - **Kms_Driven:** e.g., 27000
    - **Fuel_Type:** e.g., "Petrol"
    - **Seller_Type:** e.g., "Dealer"
    - **Transmission:** e.g., "Manual"
-   - **Owner:** e.g., 0
+   - **Owners:** e.g., 0
 
 2. **Prediction:**  
    Click the “Predict Selling Price” button. The API processes the input and returns the predicted selling price in an HTML response.
